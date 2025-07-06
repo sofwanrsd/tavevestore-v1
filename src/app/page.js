@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import products from "@/data/products";
+import Image from 'next/image';
 
 export default function HomePage() {
   const [openFAQ, setOpenFAQ] = useState(null);
