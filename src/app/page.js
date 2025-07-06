@@ -63,7 +63,7 @@ export default function HomePage() {
         <div className="grid max-w-6xl grid-cols-1 gap-6 mx-auto sm:grid-cols-2 md:grid-cols-3">
           {products.map((product) => (
             <div key={product.id} className="p-4 bg-white shadow rounded-xl">
-              <img
+              <image
                 src={product.image}
                 alt={product.name}
                 className="object-cover w-full h-40 rounded"
