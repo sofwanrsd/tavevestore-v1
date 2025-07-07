@@ -65,9 +65,11 @@ export default function HomePage() {
           {products.map((product) => (
             <div key={product.id} className="p-4 bg-white shadow rounded-xl">
               <Image
-                src={product.image}
-                alt={product.name}
-                className="object-cover w-full h-40 rounded"
+  src={product.image}
+  alt={product.name}
+  width={600}
+  height={300}
+  className="w-full h-40 object-cover rounded"
               />
               <h3 className="mt-2 text-xl font-semibold">{product.name}</h3>
               <p className="text-sm text-gray-600">
