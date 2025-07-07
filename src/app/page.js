@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import products from "@/data/products";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function HomePage() {
   const [openFAQ, setOpenFAQ] = useState(null);
@@ -96,19 +96,19 @@ export default function HomePage() {
         <div className="grid max-w-6xl grid-cols-1 gap-6 mx-auto md:grid-cols-3">
           <div className="p-4 rounded-lg shadow bg-gray-50">
             <p className="italic text-gray-600">
-              "Pelayanan cepat dan terpercaya. Netflix langsung aktif!"
+              &quot;Pelayanan cepat dan terpercaya. Netflix langsung aktif!&quot;
             </p>
             <p className="mt-2 font-semibold">- Rina, Jakarta</p>
           </div>
           <div className="p-4 rounded-lg shadow bg-gray-50">
             <p className="italic text-gray-600">
-              "Saya langganan Canva, semua aman dan murah. Rekomen banget!"
+              &quot;Saya langganan Canva, semua aman dan murah. Rekomen banget!&quot;
             </p>
             <p className="mt-2 font-semibold">- Dodi, Bandung</p>
           </div>
           <div className="p-4 rounded-lg shadow bg-gray-50">
             <p className="italic text-gray-600">
-              "TAVEVE STORE terbaik buat jualan akun premium. Proses kilat!"
+              &quot;TAVEVE STORE terbaik buat jualan akun premium. Proses kilat!&quot;
             </p>
             <p className="mt-2 font-semibold">- Sari, Surabaya</p>
           </div>
