@@ -43,9 +43,11 @@ Mohon diproses, saya siap melakukan pembayaran.
       </h1>
 
       <Image
-        src={product.image}
-        alt={product.name}
-        className="object-cover w-full h-64 mb-4 rounded"
+  src={product.image}
+  alt={product.name}
+  width={800}
+  height={400}
+  className="object-cover w-full h-64 mb-4 rounded"
       />
 
       <p className="mb-2 text-lg text-gray-700">{product.fullDescription}</p>
