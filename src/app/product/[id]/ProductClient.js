@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
+
 
 export default function ProductClient({ product }) {
   const [selectedVariant, setSelectedVariant] = useState(product.variants[0]);
@@ -40,7 +42,7 @@ Mohon diproses, saya siap melakukan pembayaran.
         {product.name}
       </h1>
 
-      <img
+      <Image
         src={product.image}
         alt={product.name}
         className="object-cover w-full h-64 mb-4 rounded"
