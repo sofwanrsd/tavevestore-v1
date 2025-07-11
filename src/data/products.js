@@ -57,6 +57,40 @@ const products = [
       { name: "1 Bulan", price: 12000 },
     ],
   },
+    {
+    id: "PrimeVidio-1",
+    name: "Prime Vidio",
+    shortDescription:
+      "Nonton film, serial, dan tayangan eksklusif Prime Video. Kualitas tinggi, tanpa iklan.",
+    fullDescription:
+      "Dengan Prime Video, nikmati akses ke ribuan film blockbuster, serial TV populer, dan Prime Video Originals eksklusif. Semua dalam kualitas tinggi dan bebas iklan. Unduh untuk tonton offline. Hiburan premium lengkap ada di tangan Anda.",
+    terms:
+      "Tidak Menerima Komplain Limit Login Setelah Berhasil Login\n25-28 Hari = 1 Bulan\nGaransi Backfree ya Bukan Non-Aktif",
+    price: 12000,
+    image: "/Prime.png",
+    variants: [
+      { name: "1 Bulan", price: 12000 },
+    ],
+  },
+    },
+    {
+    id: "YT-1",
+    name: "Youtube Premium",
+    shortDescription:
+      "Bebas iklan, putar offline, plus YouTube Music. Dapatkan YouTube Premium sekarang!.",
+    fullDescription:
+      "Dapatkan YouTube Premium untuk pengalaman menonton yang tak tertandingi. Nikmati video bebas iklan, putar di latar belakang saat Anda membuka aplikasi lain atau layar terkunci, dan unduh video favorit untuk tontonan offline. Termasuk juga akses penuh ke YouTube Music Premium. Rasakan YouTube yang lebih nyaman dan tanpa batas.",
+    terms:
+      "Tidak Menerima Komplain Limit Login Setelah Berhasil Login\n25-28 Hari = 1 Bulan\nGaransi Backfree ya Bukan Non-Aktif",
+    price: 5000,
+    image: "/YT.png",
+    variants: [
+      { name: "Member Family Plan 1 Bulan", price: 5000 },
+      { name: "Head Family Plan 1 Bulan", price: 8000 },
+      { name: "Individual Plan 1 Bulan", price: 10000 },
+      { name: "Mix Plan 3 Bulan", price: 23000 },
+    ],
+  },
 ];
 
 export default products;
