@@ -42,7 +42,7 @@ const products = [
     variants: [{ name: "1 Tahun", price: 5000 }],
   },
   {
-    id: "Capcut-1",
+    id: "capcut-1",
     name: "CapCut Pro",
     shortDescription:
       "Upgrade ke CapCut Pro sekarang! Editor video powerful di genggamanmu, dengan semua fitur premium untuk kreasi tanpa batas.",
@@ -57,9 +57,9 @@ const products = [
       { name: "1 Bulan", price: 12000 },
     ],
   },
-    {
-    id: "PrimeVidio-1",
-    name: "Prime Vidio",
+  {
+    id: "primevideo-1",
+    name: "Prime Video",
     shortDescription:
       "Nonton film, serial, dan tayangan eksklusif Prime Video. Kualitas tinggi, tanpa iklan.",
     fullDescription:
@@ -68,16 +68,13 @@ const products = [
       "Tidak Menerima Komplain Limit Login Setelah Berhasil Login\n25-28 Hari = 1 Bulan\nGaransi Backfree ya Bukan Non-Aktif",
     price: 12000,
     image: "/Prime.png",
-    variants: [
-      { name: "1 Bulan", price: 12000 },
-    ],
+    variants: [{ name: "1 Bulan", price: 12000 }],
   },
-    },
-    {
-    id: "YT-1",
-    name: "Youtube Premium",
+  {
+    id: "yt-1",
+    name: "YouTube Premium",
     shortDescription:
-      "Bebas iklan, putar offline, plus YouTube Music. Dapatkan YouTube Premium sekarang!.",
+      "Bebas iklan, putar offline, plus YouTube Music. Dapatkan YouTube Premium sekarang!",
     fullDescription:
       "Dapatkan YouTube Premium untuk pengalaman menonton yang tak tertandingi. Nikmati video bebas iklan, putar di latar belakang saat Anda membuka aplikasi lain atau layar terkunci, dan unduh video favorit untuk tontonan offline. Termasuk juga akses penuh ke YouTube Music Premium. Rasakan YouTube yang lebih nyaman dan tanpa batas.",
     terms:
