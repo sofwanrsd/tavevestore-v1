@@ -8,9 +8,9 @@ const products = [
       "Paket 1P1U adalah paket Netflix Premium yang berlaku selama satu bulan. Paket ini berbagi dengan pengguna lain, namun akses ke profil kamu dilindungi dengan PIN. Dengan 1 Profil, kamu hanya bisa menonton Netflix di satu perangkat saja. Kamu akan mendapatkan akun dan password Netflix, serta satu nama profil yang dilengkapi PIN untuk masuk (sign in).",
     terms:
       "Dilarang ubah email dan password\n1 Profil =  1 Device\nDilarang Otak Atik\nDilarang Menggunakan VPN\nDilarang Masuk Profil Lain\nDilarang Pindah-Pindah Device\nBebas Edit Profil dan PIN\nGaransi FIX 1x24 jam\n25-30 hari = 1 bulan",
-    price: 33000,
+    price: 30000,
     image: "/netflix.jpg",
-    variants: [{ name: "1P1U", price: 25000 }],
+    variants: [{ name: "1P1U", price: 30000 }],
   },
   {
     id: "canva-1",
@@ -26,7 +26,7 @@ const products = [
       { name: "1 Bulan (Via Invite)", price: 4000 },
       { name: "1 Tahun (Garansi 6 Bulan)", price: 14000 },
       { name: "Lifetime (Garansi 6 Bulan)", price: 20000 },
-      { name: "Lifetime (Garansi 1 Bulan)", price: 25000 },
+      { name: "Lifetime (Garansi 1 Tahun)", price: 25000 },
     ],
   },
   {
@@ -51,7 +51,7 @@ const products = [
     terms:
       "Tidak Menerima Komplain Limit Login Setelah Berhasil Login\n25-28 Hari = 1 Bulan",
     price: 6000,
-    image: "/viu.png",
+    image: "/capcut.jpg",
     variants: [
       { name: "7 hari", price: 6000 },
       { name: "1 Bulan", price: 12000 },
