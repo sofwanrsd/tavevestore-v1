@@ -32,7 +32,7 @@ Mohon diproses, saya siap melakukan pembayaran.
     `.trim();
   };
 
-  const waLink = `https://wa.me/6281232729502?text=${encodeURIComponent(
+  const waLink = `https://wa.me/6285722479324?text=${encodeURIComponent(
     createMessage()
   )}`;
 
