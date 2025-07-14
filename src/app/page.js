@@ -155,7 +155,15 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="px-6 py-3 text-lg text-white transition bg-green-600 rounded-full hover:opacity-90"
           >
-            WhatsApp
+            Owner WhatsApp
+          </a>
+          <a
+            href="https://wa.me/6285722479324"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 text-lg text-white transition bg-green-600 rounded-full hover:opacity-90"
+          >
+            Admin WhatsApp
           </a>
           <a
             href="https://instagram.com/tavevestore/"
