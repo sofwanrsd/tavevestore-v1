@@ -27,7 +27,7 @@ Setelah ini saya akan kirim bukti pembayaran ya. Terima kasih 🙏
     `.trim();
   };
 
-  const waLink = `https://wa.me/6281232729502?text=${encodeURIComponent(createMessage())}`;
+  const waLink = `https://wa.me/6285722479324?text=${encodeURIComponent(createMessage())}`;
 
   return (
     <div className="max-w-3xl px-4 py-10 mx-auto">
