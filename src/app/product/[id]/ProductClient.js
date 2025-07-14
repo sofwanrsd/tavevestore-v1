@@ -17,13 +17,12 @@ export default function ProductClient({ product }) {
     return `
 Halo Admin TAVEVE STORE! Saya ingin melakukan pemesanan:
 
-🗓️ Tanggal: ${date}
+🗓️ Tanggal ${date}
 📦 Produk: ${product.name}
 📂 Varian: ${selectedVariant.name}
 💰 Harga: Rp${selectedVariant.price.toLocaleString()}
 
 Saya akan melakukan pembayaran melalui QRIS yang tersedia di Profil > Katalog.
-
 Setelah ini saya akan kirim bukti pembayaran ya. Terima kasih 🙏
     `.trim();
   };
